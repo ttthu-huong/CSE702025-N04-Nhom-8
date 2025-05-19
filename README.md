@@ -1,6 +1,15 @@
 # 🎠 MyKingToys — Hệ thống quản lý bán đồ chơi
 ---
-## 🪁 Giới thiệu chung
+
+### 👥 Thành viên nhóm
+
+* Trần Thị Thu Hường
+* Hoàng Minh Quân
+* Nguyễn Thị Thương
+* Nguyễn Thành Long
+
+---
+## 🪁 Giới thiệu dự án
 
 MyKingToys là một hệ thống quản lý bán đồ chơi dành cho cửa hàng vừa và nhỏ. Dự án được phát triển nhằm hỗ trợ quá trình quản lý sản phẩm, khách hàng, đơn hàng một cách hiệu quả, trực quan và tiết kiệm thời gian.
 Với tinh thần "Đồ chơi không chỉ dành cho trẻ em, mà còn là biểu tượng của tuổi thơ và sự sáng tạo", chúng tôi mong muốn đem đến một nền tảng quản lý đơn giản – trực quan – hiệu quả cho các cửa hàng đồ chơi truyền thống và trực tuyến.
@@ -17,7 +26,7 @@ Với tinh thần "Đồ chơi không chỉ dành cho trẻ em, mà còn là bi�
 
 ---
 
-## 🔧 Công nghệ sử dụng
+## 🛠️ Công nghệ sử dụng
 
 | Thành phần     | Công nghệ                |
 |----------------|---------------------------|
@@ -31,25 +40,35 @@ Với tinh thần "Đồ chơi không chỉ dành cho trẻ em, mà còn là bi�
 ## 👥 Thành viên nhóm
 💼 Hoàng Minh Quân
 * Vai trò: Trưởng nhóm, định hướng kiến trúc dự án, quản lý tiến độ chung.
-Công việc chính: Thiết kế cơ sở dữ liệu, xử lý logic backend, kiểm thử tổng thể.
-Ghi chú đặc biệt: Làm việc chỉn chu, quyết đoán và luôn tạo động lực tích cực cho cả nhóm 💪✨.
+* Công việc chính: Thiết kế cơ sở dữ liệu, xử lý logic backend, kiểm thử tổng thể.
 
-🧩 Nguyễn Thành Long – “Người xấu trai nhất Thế giới và đã có người yêu”
-Vai trò: Backend Developer
-Công việc chính: Phát triển chức năng quản lý đơn hàng, báo cáo doanh thu, xử lý API.
-Ghi chú đặc biệt: Luôn sẵn sàng hỗ trợ các thành viên khác, vui tính và chịu khó tìm hiểu sâu 🔧🧠.
+🧩 Nguyễn Thành Long 
+* Vai trò: 
+* Công việc chính: 
 
-## 🪄 Hướng dẫn cài đặt & chạy dự án
+🎨 Nguyễn Thị Thương 
+* Vai trò: 
+* Công việc chính: 
 
-```bash
-git clone https://github.com/your-username/mykingtoys.git
-cd mykingtoys
+🌸 Trần Thị Thu Hương
+* Vai trò: 
+* Công việc chính: Tổng hợp và viết tài liệu báo cáo, README.
 
-composer install
-npm install
+---
 
-cp .env.example .env
-php artisan key:generate
+## 💬 Quá trình thực hiện
+Dự án được chia thành 3 giai đoạn chính:
 
-php artisan migrate
-php artisan serve
+1. 📌 Phân tích yêu cầu & thiết kế hệ thống (tuần 1-2):
+* Khảo sát nhu cầu thực tế, thống nhất ý tưởng dự án.
+* Lập sơ đồ ERD, Use Case, thiết kế CSDL và giao diện.
+
+2. 🧱 Xây dựng chức năng (tuần 3-4):
+* Phát triển backend bằng Laravel.
+* Thiết kế frontend đồng bộ giao diện thân thiện, dễ sử dụng.
+
+3. ✅ Kiểm thử & triển khai (tuần 5-6):
+* Kiểm thử chức năng.
+* Viết báo cáo và tổng hợp tài liệu hướng dẫn sử dụng.
+
+---
