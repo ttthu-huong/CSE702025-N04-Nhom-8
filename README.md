@@ -50,10 +50,10 @@
 
 | Thành viên             | Vai trò               | Công việc chính                           |
 |------------------------|-----------------------|-------------------------------------------|
-| Hoàng Minh Quân        | Leader                | Thiết kế cơ sở dữ liệu, xử lý logic backend, kiểm thử tổng thể.|
-| Nguyễn Thành Long      | Backend chính         |  |
-| Nguyễn Thị Thương      | Frontend + kiểm thử   |                   |
-| Trần Thị Thu Hường     | Thiết kế giao diện    | Tổng hợp và viết tài liệu báo cáo, README. |
+| Hoàng Minh Quân        |                | Thiết kế cơ sở dữ liệu, xử lý logic backend, kiểm thử tổng thể.|
+| Nguyễn Thành Long      |          |  |
+| Nguyễn Thị Thương      |    |                   |
+| Trần Thị Thu Hường     |     | Tổng hợp và viết tài liệu báo cáo, README. |
 
 ---
 
