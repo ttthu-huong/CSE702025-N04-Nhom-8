@@ -53,7 +53,7 @@
 | Hoàng Minh Quân        | Leader                | Thiết kế cơ sở dữ liệu, xử lý logic backend, kiểm thử tổng thể.|
 | Nguyễn Thành Long      | Backend chính         |  |
 | Nguyễn Thị Thương      | Frontend + kiểm thử   |                   |
-| Trần Thị Thu Hương     | Thiết kế giao diện    | Tổng hợp và viết tài liệu báo cáo, README. |
+| Trần Thị Thu Hường     | Thiết kế giao diện    | Tổng hợp và viết tài liệu báo cáo, README. |
 
 ---
 
