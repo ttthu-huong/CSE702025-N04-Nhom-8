@@ -1,7 +1,7 @@
 # 🎠 MyKingToys — Hệ thống quản lý bán đồ chơi
 
-  MyKingToys là hệ thống quản lý bán đồ chơi dành cho cửa hàng vừa và nhỏ. Dự án được phát triển nhằm hỗ trợ quá trình quản lý sản phẩm, khách hàng, đơn hàng một cách hiệu quả, trực quan và tiết kiệm thời gian.
-  Với tinh thần "Đồ chơi không chỉ dành cho trẻ em, mà còn là biểu tượng của tuổi thơ và sự sáng tạo", chúng tôi mong muốn đem đến một nền tảng quản lý đơn giản – trực quan – hiệu quả cho các cửa hàng đồ chơi truyền thống và trực tuyến.
+ - MyKingToys là hệ thống quản lý bán đồ chơi dành cho cửa hàng vừa và nhỏ. Dự án được phát triển nhằm hỗ trợ quá trình quản lý sản phẩm, khách hàng, đơn hàng một cách hiệu quả, trực quan và tiết kiệm thời gian.
+ - Với tinh thần "Đồ chơi không chỉ dành cho trẻ em, mà còn là biểu tượng của tuổi thơ và sự sáng tạo", chúng tôi mong muốn đem đến một nền tảng quản lý đơn giản – trực quan – hiệu quả cho các cửa hàng đồ chơi truyền thống và trực tuyến.
 
 ---
 
