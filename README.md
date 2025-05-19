@@ -2,7 +2,6 @@
 
 
 ### 👥 Thành viên nhóm
-
 * Trần Thị Thu Hường
 * Hoàng Minh Quân
 * Nguyễn Thị Thương
@@ -37,7 +36,17 @@
 
 ---
 
+## 🧩 Cấu trúc chức năng chính
+
+* Quản lý sản phẩm: tên, giá, số lượng, mô tả, ảnh
+* Quản lý đơn hàng: tạo mới, trạng thái, tổng tiền
+* Quản lý người dùng: đăng ký, đăng nhập, phân quyền
+* Thống kê cơ bản: tổng sản phẩm, tổng đơn, doanh thu
+
+---
+
 ## 👥 Thành viên nhóm
+
 💼 Hoàng Minh Quân
 * Vai trò: Trưởng nhóm, định hướng kiến trúc dự án, quản lý tiến độ chung.
 * Công việc chính: Thiết kế cơ sở dữ liệu, xử lý logic backend, kiểm thử tổng thể.
@@ -57,6 +66,7 @@
 ---
 
 ## 💬 Quá trình thực hiện
+
 Dự án được chia thành 3 giai đoạn chính:
 
 1. 📌 Phân tích yêu cầu & thiết kế hệ thống (tuần 1-2):
@@ -72,3 +82,10 @@ Dự án được chia thành 3 giai đoạn chính:
 * Viết báo cáo và tổng hợp tài liệu hướng dẫn sử dụng.
 
 ---
+
+## 🌱 Định hướng phát triển
+
+* Tích hợp thanh toán online (VNPay, Momo,…)
+* Thêm hệ thống đánh giá sản phẩm
+* Responsive layout cho điện thoại
+* Tự động thống kê doanh thu theo tuần/tháng
