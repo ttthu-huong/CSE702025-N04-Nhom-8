@@ -15,6 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+            $table->tinyInteger('role')->default(2);
+            // $table->tinyInteger('role')->default(2); // Đảm bảo vai trò mặc định là 2
+            $table->string('img_user')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
