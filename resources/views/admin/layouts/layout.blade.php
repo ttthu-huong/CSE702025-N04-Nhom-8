@@ -58,7 +58,7 @@
                     </li>
 
                     <li class="sidebar-header">
-                        Chuyên mục
+                        Danh mục chính(Theo tuổi, loại,...)
                     </li>
 
                     <li class="sidebar-item {{ request()->routeIs('category.create') ? 'active' : '' }}">
@@ -74,7 +74,7 @@
                     </li>
 
                     <li class="sidebar-header">
-                        Chuyên mục nhỏ
+                        Danh mục phụ(0-12 tuổi, xếp hình,...)
                     </li>
 
                     <li class="sidebar-item {{ request()->routeIs('subcategory.create') ? 'active' : '' }}">
@@ -90,7 +90,7 @@
                     </li>
 
                     <li class="sidebar-header">
-                        Dữ liệu sản phẩm
+                        Dữ liệu sản phẩm(Thông tin sản phẩm, giá, mô tả,...)
                     </li>
 
                     <li class="sidebar-item {{ request()->routeIs('productattribute.create') ? 'active' : '' }}">
