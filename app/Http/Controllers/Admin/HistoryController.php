@@ -11,6 +11,7 @@ use Barryvdh\DomPDF\Facade\Pdf;
 
 class HistoryController extends Controller
 {
+    // Hiển thị lịch sử các đơn ship (giao hàng)
     public function cart_history()
     {
         $shipers = Shipper::all()->sortDesc();
@@ -96,12 +97,15 @@ class HistoryController extends Controller
 
 
     //================Order=========================
+    
+    // Hiển thị lịch sử các đơn đặt hàng
     public function order_history()
     {
         $orders = Orders::all()->sortDesc();
         return view('admin/order/history', compact('orders'));
     }
 
+    // Xóa một đơn đặt hàng theo id
     public function order_delete($id)
     {
         $orders = Orders::findOrFail($id);
@@ -115,16 +119,19 @@ class HistoryController extends Controller
         }
     }
 
+    // Hiển thị form chỉnh sửa đơn hàng
     public function order_edit($id)
     {
         $orders_info = Orders::find($id);
         return view('admin.order.edit_order', compact('orders_info'));
     }
 
+    // Cập nhật thông tin đơn hàng
     public function order_update(Request $request, $id)
     {
         $order_edit = Orders::findOrFail($id);
 
+        // Validate dữ liệu đầu vào
         $request->validate([
             'orders_status' => 'required|string|max:255',
             'orders_phonenumber' => 'nullable|string|max:15', // Đổi thành kiểu string nếu số điện thoại phức tạp
@@ -132,6 +139,7 @@ class HistoryController extends Controller
         ]);
 
         try {
+            // Cập nhật thông tin đơn hàng
             $order_edit->update([
                 'orders_censor' => $request->orders_status,
                 'orders_phonenumber' => ($request->orders_phonenumber == 0) ? "0" : $request->orders_phonenumber,
@@ -144,17 +152,17 @@ class HistoryController extends Controller
         }
     }
 
-
-
-
+    // Hiển thị form để chèn thông tin ship cho đơn hàng
     public function order_insertship($id)
     {
         $orders_info = Orders::find($id); // Sử dụng findOrFail để đảm bảo nếu không tìm thấy sẽ trả về lỗi 404
         return view('admin.order.ship_order', compact('orders_info'));
     }
 
+    // Lưu thông tin ship mới cho đơn hàng
     public function order_createship(Request $request)
     {
+        // Validate dữ liệu đầu vào
         $request->validate([
             'ship_order_id' => 'required|exists:orders,id', // Kiểm tra sự tồn tại của ID đơn hàng
             'ship_users' => 'required|string|max:255',
@@ -167,6 +175,7 @@ class HistoryController extends Controller
         ]);
 
         try {
+            // Tạo mới bản ghi shipper
             Shipper::create([
                 'ship_users' => $request->ship_users,
                 'ship_orders_id' => $request->ship_order_id,
@@ -184,6 +193,7 @@ class HistoryController extends Controller
         }
     }
 
+    // Tìm kiếm đơn đặt hàng theo nhiều trường
     public function order_search(Request $request)
     {
         $searchTerm = $request->input('search_orders');
