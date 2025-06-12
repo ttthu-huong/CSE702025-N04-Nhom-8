@@ -58,7 +58,7 @@
                     </li>
 
                     <li class="sidebar-header">
-                        Danh mục chính(Theo tuổi, loại,...)
+                        Chuyên mục
                     </li>
 
                     <li class="sidebar-item {{ request()->routeIs('category.create') ? 'active' : '' }}">
@@ -74,7 +74,7 @@
                     </li>
 
                     <li class="sidebar-header">
-                        Danh mục phụ(0-12 tuổi, xếp hình,...)
+                        Chuyên mục nhỏ
                     </li>
 
                     <li class="sidebar-item {{ request()->routeIs('subcategory.create') ? 'active' : '' }}">
@@ -90,7 +90,7 @@
                     </li>
 
                     <li class="sidebar-header">
-                        Dữ liệu sản phẩm(Thông tin sản phẩm, giá, mô tả,...)
+                        Dữ liệu sản phẩm
                     </li>
 
                     <li class="sidebar-item {{ request()->routeIs('productattribute.create') ? 'active' : '' }}">
@@ -331,7 +331,7 @@
 
                             <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#"
                                 data-bs-toggle="dropdown">
-                                <img src="{{asset('admin_asset/img/photos/'.Auth::user()->img_user)}}" class="avatar img-fluid rounded me-1" alt="Quân đẹp trai" /> <span class="text-dark">{{ Auth::user()->name }}</span>
+                                <img src="{{asset('admin_asset/img/photos/'.Auth::user()->img_user)}}" class="avatar img-fluid rounded me-1" alt="Tài đẹp trai" /> <span class="text-dark">{{ Auth::user()->name }}</span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-end">
                                 <a class="dropdown-item" href="{{route('admin.settings')}}"><i class="align-middle me-1"
