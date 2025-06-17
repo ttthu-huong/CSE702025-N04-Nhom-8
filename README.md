@@ -33,7 +33,7 @@
 
 | Thành phần     | Công nghệ                |
 |----------------|---------------------------|
-| Backend        | PHP (Laravel 10)          |
+| Backend        | PHP (Laravel 11)          |
 | Frontend       | Figma, Tailwind, Bootstrap |
 | Cơ sở dữ liệu  | MySQL                     |
 | Dev Tools      | GitHub, VS Code           |
@@ -63,7 +63,7 @@ Dự án được chia thành 3 giai đoạn chính:
 
 1. 📌 Phân tích yêu cầu & thiết kế hệ thống (tuần 1-2):
 * Khảo sát nhu cầu thực tế, thống nhất ý tưởng dự án.
-* Lập sơ đồ ERD, Use Case, thiết kế CSDL và giao diện.
+* Lập sơ đồ ERD, Use Case, thiết kế CSDL và giao diện(Figma).
 
 2. 🧱 Xây dựng chức năng (tuần 3-4):
 * Phát triển backend bằng Laravel.
@@ -75,7 +75,7 @@ Dự án được chia thành 3 giai đoạn chính:
 
 ---
 
-## 🌱 Định hướng phát triển
+## 🌱 Định hướng phát triển trong tương lai
 
 - 🌐 Responsive hoàn toàn (hỗ trợ thiết bị di động)
 - 💳 Tích hợp thanh toán trực tuyến (VNPay, Momo)
