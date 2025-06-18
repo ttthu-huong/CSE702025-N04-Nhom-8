@@ -33,16 +33,16 @@
 
 | Thành phần     | Công nghệ                |
 |----------------|---------------------------|
-| Backend        | PHP (Laravel 11)          |
-| Frontend       | Figma, Tailwind, Bootstrap |
-| Cơ sở dữ liệu  | MySQL                     |
-| Dev Tools      | GitHub, VS Code           |
+| Backend        | PHP (Laravel framework), Laravel Breeze, Eloquent ORM, Laravel Security  |
+| Frontend       |Blade engine, Tailwind CSS, Figma (thiết kế giao diện UI trước khi code)|
+| Cơ sở dữ liệu  | MySQL (Aiven Cloud)         |
+| Dev Tools      | GitHub (quản lý mã nguồn), VS Code (môi trường lập trình)    |
 
 ---
 
 ## 📸 Giao diện mẫu
 
-> 
+> ![image](https://github.com/user-attachments/assets/52e4a22d-5861-4c5a-ab62-06da83f2fe1b)
 
 ---
 
@@ -50,10 +50,10 @@
 
 | Thành viên             | Vai trò               | Công việc chính                           |
 |------------------------|-----------------------|-------------------------------------------|
-| Hoàng Minh Quân        |                | Thiết kế cơ sở dữ liệu, xử lý logic backend, kiểm thử tổng thể.|
-| Nguyễn Thành Long      |          |  |
-| Nguyễn Thị Thương      |    |                   |
-| Trần Thị Thu Hường     |     | Tổng hợp và viết tài liệu báo cáo, README. |
+| Hoàng Minh Quân        |       Trưởng nhóm         |Phụ trách toàn bộ phần lập trình hệ thống, bao gồm cả frontend, backend và cơ sở dữ liệu|
+| Nguyễn Thành Long      |    Thành viên      | Viết toàn bộ báo cáo, thiết kế sơ đồ và tổng hợp tài liệu |
+| Nguyễn Thị Thương      |  Thành viên  | Thiết kế giao diện người dùng trên Figma, xây dựng wireframe, UI flow  |
+| Trần Thị Thu Hường     |  Thành viên   | Thiết kế giao diện người dùng trên Figma, xây dựng wireframe, UI flow |
 
 ---
 
