@@ -88,7 +88,6 @@ Dự án được chia thành 3 giai đoạn chính:
 ## 📫 Liên hệ nhóm
 
 📬 GitHub: [MyKingToys Repository](https://github.com/ttthu-huong/CSE702025-N04-Nhom-8)  
-📧 Email nhóm: mykingtoys.group@gmail.com  
 🧠 Đóng góp: Vui lòng tạo issue hoặc pull request
 
 ---
